@@ -26,7 +26,7 @@ class Motorbike extends Vehicle {
     year: number,
     weight: number,
     topSpeed: number,
-    wheels: Wheel[]
+    wheels: Wheel[] = []
   ) {
     // TODO: The constructor should call the constructor of the parent class, Vehicle
     super();
